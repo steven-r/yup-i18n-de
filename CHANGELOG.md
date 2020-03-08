@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1-beta.2](https://github.com/steven-r/yup-i18n-de/compare/v1.3.1-beta.1...v1.3.1-beta.2) (2020-03-08)
+
+
+### Bug Fixes
+
+* remove postinstall trigger to not start patching ([38cfa97](https://github.com/steven-r/yup-i18n-de/commit/38cfa97affa71e44d872ee06f953ca245b437f9f))
+
 ## [1.3.1-beta.1](https://github.com/steven-r/yup-i18n-de/compare/v1.3.0...v1.3.1-beta.1) (2020-03-08)
 
 
