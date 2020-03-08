@@ -1,7 +1,6 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/steven-r/yup-i18n-de)](https://github.com/steven-r/yup-i18n-de/issues) [![codecov](https://codecov.io/gh/steven-r/yup-i18n-de/branch/master/graph/badge.svg)](https://codecov.io/gh/steven-r/yup-i18n-de) 
-[![Build-Status](https://travis-ci.com/steven-r/yup-i18n-de.svg?branch=master)]
-
+[![Build-Status](https://travis-ci.com/steven-r/yup-i18n-de.svg?branch=master)](https://travis-ci.com/steven-r/yup-i18n-de.svg?branch=master)
 
 # yup-i18n-de
 German translation for yup validations
