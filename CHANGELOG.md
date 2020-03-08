@@ -1,3 +1,11 @@
+## [1.1.1-beta.1](https://github.com/steven-r/yup-i18n-de/compare/v1.1.0...v1.1.1-beta.1) (2020-03-08)
+
+
+### Bug Fixes
+
+* use pre-release flags for next channel ([f02374c](https://github.com/steven-r/yup-i18n-de/commit/f02374ca1c3a36b68f47de805bb26e5c2732f3a7))
+* wrong style for build badge ([68d780b](https://github.com/steven-r/yup-i18n-de/commit/68d780bc9cd704f664bf0a6c41ef56a9bfd6c990))
+
 # [1.1.0](https://github.com/steven-r/yup-i18n-de/compare/v1.0.3...v1.1.0) (2020-03-08)
 
 
