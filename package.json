@@ -2,11 +2,18 @@
   "name": "@stephen-r/yup-i18n-de",
   "version": "0.0.0-development",
   "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "clean": "shx rm -rf node_modules/ dist/ docs/",
+    "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default && touch docs/.nojekyll"
   },
   "repository": "steven-r/yup-i18n-de",
+  "bugs": {
+    "url": "https://github.com/steven-r/yup-i18-de/issues"
+  },
   "keywords": [
     "yup",
     "i18n"
@@ -19,8 +26,19 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.0",
     "@types/yup": "^0.26.32",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
     "semantic-release": "^17.0.4",
+    "shx": "^0.3.2",
+    "typedoc": "^0.16.11",
+    "typedoc-neo-theme": "^1.0.6",
+    "typescript": "^3.8.3",
     "yup": "^0.28.3"
   },
   "husky": {

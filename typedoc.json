@@ -1,0 +1,21 @@
+{
+  "out": "docs",
+  "exclude": [
+    "**/_test/**/*.*",
+    "**/index.ts",
+    "**/common.ts"
+  ],
+  "ignoreCompilerErrors": true,
+  "disableOutputCheck": true,
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "excludeNotExported": true,
+  "links": [{
+    "label": "Yup",
+    "url": "https://github.com/jquense/yup"
+  }],
+  "source": [{
+    "path": "https://github.com/steven-r/yup-i18n-de/tree/master/src/",
+    "line": "L"
+  }]
+}
