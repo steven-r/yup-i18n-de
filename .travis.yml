@@ -8,13 +8,14 @@ install:
 node_js:
   - "lts/*"
 
-script:
-  - yarn build
-  - cp package.json dist/
-  - yarn test
-
 jobs:
   include:
+    - stage: build & test
+      script: 
+        - yarn build
+        - cp package.json dist/
+    - script: yarn test
+      name: test
     - stage: release
       deploy:
         - provider: pages
