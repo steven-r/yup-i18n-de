@@ -1,6 +1,6 @@
 {
   "name": "@stephen-r/yup-i18n-de",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "scripts": {

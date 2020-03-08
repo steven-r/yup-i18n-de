@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/steven-r/yup-i18n-de/compare/v1.0.2...v1.0.3) (2020-03-08)
+
+
+### Bug Fixes
+
+* use correct deployment token ([41ba932](https://github.com/steven-r/yup-i18n-de/commit/41ba932e67e8993bda9f908d81a81029238bd076))
+
 ## [1.0.2](https://github.com/steven-r/yup-i18n-de/compare/v1.0.1...v1.0.2) (2020-03-08)
 
 
