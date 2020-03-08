@@ -8,6 +8,10 @@ install:
 node_js:
   - "lts/*"
 
+script:
+  - yarn build
+  - yarn test
+
 jobs:
   include:
     - stage: pages

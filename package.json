@@ -5,7 +5,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc && typedoc",
-    "test": "build && jest && codecov",
+    "test": "jest && codecov",
     "semantic-release": "semantic-release",
     "clean": "shx rm -rf node_modules/ dist/ docs/",
     "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default && touch docs/.nojekyll"
