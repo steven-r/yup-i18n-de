@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/steven-r/yup-i18n-de/compare/v1.1.0...v1.1.1) (2020-03-08)
+
+
+### Bug Fixes
+
+* restructure release package ([396fe12](https://github.com/steven-r/yup-i18n-de/commit/396fe12cb7ccc088c19e9d49d443732cfbc1e9ff))
+* use pre-release flags for next channel ([f02374c](https://github.com/steven-r/yup-i18n-de/commit/f02374ca1c3a36b68f47de805bb26e5c2732f3a7))
+* wrong style for build badge ([68d780b](https://github.com/steven-r/yup-i18n-de/commit/68d780bc9cd704f664bf0a6c41ef56a9bfd6c990))
+
 ## [1.1.1-beta.2](https://github.com/steven-r/yup-i18n-de/compare/v1.1.1-beta.1...v1.1.1-beta.2) (2020-03-08)
 
 
