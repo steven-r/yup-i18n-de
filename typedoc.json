@@ -1,9 +1,8 @@
 {
   "out": "docs",
   "exclude": [
-    "**/_test/**/*.*",
-    "**/index.ts",
-    "**/common.ts"
+    "test/**/*.*",
+    "**/index.ts"
   ],
   "ignoreCompilerErrors": true,
   "disableOutputCheck": true,
