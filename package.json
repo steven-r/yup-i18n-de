@@ -1,6 +1,6 @@
 {
   "name": "@stephen-r/yup-i18n-de",
-  "version": "1.3.0",
+  "version": "1.3.1-beta.2",
   "main": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
     "semantic-release": "semantic-release",
     "clean": "shx rm -rf node_modules/ dist/ docs/",
     "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default --readme README.md",
-    "postinstall": "patch-package"
+    "patch-dev-packages": "patch-package"
   },
   "repository": "steven-r/yup-i18n-de",
   "bugs": {
