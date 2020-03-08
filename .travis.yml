@@ -3,7 +3,7 @@ language: node_js
 
 install:
   - npm install -g codecov
-  - yarn 
+  - yarn
 
 node_js:
   - "lts/*"
