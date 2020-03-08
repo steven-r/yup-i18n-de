@@ -1,0 +1,13 @@
+{
+  "name": "@stephen-r/yup-i18n-de",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "steven-r/yup-i18n-de",
+  "keywords": ["yup", "i18n"],
+  "author": "Stephen Reindl",
+  "license": "MIT",
+  "description": "A small libary that sets the locale for yup to German"
+}
