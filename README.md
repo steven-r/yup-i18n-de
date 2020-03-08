@@ -10,22 +10,39 @@ German translation for yup validations
 * with npm
 
 ```
-npm install @stephen-r/yup-i18n-de
+$ npm install @stephen-r/yup-i18n-de
 ```
 
 * with yarn
 
 ```
-yarn add @stephen-r/yup-i18n-de
+$ yarn add @stephen-r/yup-i18n-de
 ```
 
 # Usage
 
 Use the following code to switch to German translation
 
-```
+```typescript
 import { registerGermanYupLocale } from "@stephen-r/yup-i18n-de";
 
 // ... some code
   registerGermanYupLocale();
-...
+// ... more code
+```
+
+## Additional Usage
+
+There might be a need to change parts of the translations by yourself. This can be achived by changing the objects directly:
+
+```typescript
+import { registerGermanYupLocale, mixed } from "@stephen-r/yup-i18n-de";
+
+// ... some code
+  mixed.default = "Eine andere Meldung!";
+  registerGermanYupLocale();
+// ... more code
+```
+
+Be aware that changes before and after calling ``registerGermanYupLocale()`` are taken
+into consideration.
