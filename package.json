@@ -8,7 +8,8 @@
     "test": "jest",
     "semantic-release": "semantic-release",
     "clean": "shx rm -rf node_modules/ dist/ docs/",
-    "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default --readme README.md"
+    "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default --readme README.md",
+    "postinstall": "patch-package"
   },
   "repository": "steven-r/yup-i18n-de",
   "bugs": {
@@ -40,6 +41,7 @@
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.8",
+    "patch-package": "^6.2.1",
     "prettier": "^1.19.1",
     "semantic-release": "^17.0.4",
     "shx": "^0.3.2",
