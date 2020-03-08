@@ -4,8 +4,8 @@
   "main": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "test": "jest",
+    "build": "tsc && typedoc",
+    "test": "jest && codecov",
     "semantic-release": "semantic-release",
     "clean": "shx rm -rf node_modules/ dist/ docs/",
     "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default && touch docs/.nojekyll"

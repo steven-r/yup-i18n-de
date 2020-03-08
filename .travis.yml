@@ -1,4 +1,8 @@
+os: linux
 language: node_js
+
+install:
+  - npm install -g codecov
 
 node_js:
   - "lts/*"
@@ -14,4 +18,7 @@ jobs:
         skip_cleanup: true
         script:
           npx semantic-release
-        if: branch in (master, next)
+        on:
+          branches: 
+            master
+            next
