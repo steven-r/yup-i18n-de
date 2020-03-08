@@ -8,29 +8,25 @@ install:
 node_js:
   - "lts/*"
 
-script:
-  - yarn build
-  - yarn test
-
 jobs:
   include:
-    - stage: pages
-      deploy:
-        provider: pages
-        github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-        keep_history: true
-        skip_cleanup: true
-        on:
-          branch: master
+    - stage: build & test
+      script:
+        - yarn build
+        - cp package.json dist/
+    - script: yarn test
+      name: test
     - stage: release
-      # Advanced: optionally overwrite your default `script` step to skip the tests
-      # script:
-      #   - make
       deploy:
-        provider: script
-        skip: true
-        skip_cleanup: true
-        script:
-          npx semantic-release
-        on:
-          all_branches: true
+        - provider: pages
+          github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+          keep_history: true
+          skip_cleanup: true
+          on:
+            branch: master
+        - provider: script
+          skip_cleanup: true
+          script:
+            npx semantic-release
+          on:
+            all_branches: true
