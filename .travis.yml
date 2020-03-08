@@ -10,14 +10,24 @@ node_js:
 
 jobs:
   include:
-    - script: yarn build
-    - script: yarn test
+    - stage: pages
+      deploy:
+        provider: pages
+        skip: true
+        github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+        keep_history: true
+        skip_cleanup: true
+        script:
+          npx semantic-release
+        on:
+          all_branches: true
     - stage: release
       # Advanced: optionally overwrite your default `script` step to skip the tests
       # script:
       #   - make
       deploy:
         provider: script
+        skip: true
         skip_cleanup: true
         script:
           npx semantic-release
