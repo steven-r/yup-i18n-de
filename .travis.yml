@@ -11,7 +11,7 @@ node_js:
 jobs:
   include:
     # Define the release stage that runs semantic-release
-    - stage: release
+    - stage: release to master
       # Advanced: optionally overwrite your default `script` step to skip the tests
       # script: skip
       deploy:
@@ -22,6 +22,7 @@ jobs:
         on:
           branch: master
 
+    - stage: release to next
       deploy:
         provider: script
         skip_cleanup: true
