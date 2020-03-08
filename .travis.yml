@@ -10,6 +10,7 @@ node_js:
 
 jobs:
   include:
+    - script: yarn build
     - stage: release
       # Advanced: optionally overwrite your default `script` step to skip the tests
       # script:
