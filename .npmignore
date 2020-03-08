@@ -1,0 +1,12 @@
+src/
+test/
+.*
+coverage
+node_modules
+CODE_OF_CONDUCT.md
+commitlint.config.js
+jest.config.js
+tsconfig.json
+typedoc.json
+yarn.lock
+docs/

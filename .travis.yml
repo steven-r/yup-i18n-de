@@ -13,10 +13,7 @@ jobs:
     - stage: build & test
       script:
         - yarn build
-        - cp package.json dist/
-    - script: yarn test
-      name: test
-    - stage: release
+        - yarn test
       deploy:
         - provider: pages
           github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
