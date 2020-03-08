@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0-beta.1](https://github.com/steven-r/yup-i18n-de/compare/v1.1.1-beta.2...v1.2.0-beta.1) (2020-03-08)
+
+
+### Features
+
+* update documentation to not use README.md but docs instead ([148127e](https://github.com/steven-r/yup-i18n-de/commit/148127e8f52631d5ac561b8a90525bd2ab3cd069))
+
 ## [1.1.1-beta.2](https://github.com/steven-r/yup-i18n-de/compare/v1.1.1-beta.1...v1.1.1-beta.2) (2020-03-08)
 
 
