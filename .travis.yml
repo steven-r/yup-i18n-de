@@ -3,6 +3,7 @@ language: node_js
 
 install:
   - npm install -g codecov
+  - yarn 
 
 node_js:
   - "lts/*"
@@ -19,6 +20,6 @@ jobs:
         script:
           npx semantic-release
         on:
-          branches: 
+          branch: 
             master
             next
