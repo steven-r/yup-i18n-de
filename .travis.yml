@@ -1,17 +1,31 @@
+os: linux
 language: node_js
+
+install:
+  - npm install -g codecov
+  - yarn
 
 node_js:
   - "lts/*"
 
 jobs:
   include:
+    - script: yarn test
     # Define the release stage that runs semantic-release
-    - stage: release
-      # Advanced: optionally overwrite your default `script` step to skip the tests
-      # script: skip
+    - stage:   release to master
+      script: skip
+      if: branch == master
       deploy:
         provider: script
         skip_cleanup: true
         script:
           npx semantic-release
-        if: branch in (master, next)
+
+    - name: release to next
+      script: skip
+      if: branch == next
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          npx semantic-release
