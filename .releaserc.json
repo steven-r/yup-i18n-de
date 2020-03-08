@@ -12,15 +12,13 @@
     [
       "@semantic-release/npm",
       {
-        "pkgRoot": "dist",
-        "npmPublish": false
+        "pkgRoot": "dist"
       }
     ],
     [
       "@semantic-release/github",
       {
-        "assets": ["CHANGELOG.md", "dist/**"]
-
+        "assets": ["CHANGELOG.md", "dist/**", "docs/**"]
       }
     ]
   ]
