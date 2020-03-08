@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/steven-r/yup-i18n-de/compare/v1.0.3...v1.1.0) (2020-03-08)
+
+
+### Features
+
+* add build labels ([72f4f50](https://github.com/steven-r/yup-i18n-de/commit/72f4f50841ed31f27065b12896d905a15e6db40f))
+
 ## [1.0.3](https://github.com/steven-r/yup-i18n-de/compare/v1.0.2...v1.0.3) (2020-03-08)
 
 
