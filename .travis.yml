@@ -10,22 +10,14 @@ node_js:
 
 jobs:
   include:
-    - script: yarn test
-    # Define the release stage that runs semantic-release
-    - stage: release to master
-      script: skip
-      if: branch == master
+    - stage: release
+      # Advanced: optionally overwrite your default `script` step to skip the tests
+      # script:
+      #   - make
       deploy:
         provider: script
         skip_cleanup: true
         script:
           npx semantic-release
-
-    - stage: release to next
-      script: skip
-      if: branch == next
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script:
-          npx semantic-release
+        on:
+          all_branches: true
