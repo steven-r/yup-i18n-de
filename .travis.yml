@@ -11,7 +11,7 @@ node_js:
 jobs:
   include:
     - stage: build & test
-      script: 
+      script:
         - yarn build
         - cp package.json dist/
     - script: yarn test
