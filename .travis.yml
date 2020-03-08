@@ -16,7 +16,7 @@ jobs:
         - yarn test
       deploy:
         - provider: pages
-          github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+          github_token: $GH_TOKEN
           keep_history: true
           skip_cleanup: true
           on:
