@@ -49,30 +49,30 @@ export const string = {
  * translations for number() schema elements
  */
 export const number = {
-  min: "${path} must be greater than or equal to ${min}",
-  max: "${path} must be less than or equal to ${max}",
-  lessThan: "${path} must be less than ${less}",
-  moreThan: "${path} must be greater than ${more}",
-  notEqual: "${path} must be not equal to ${notEqual}",
-  positive: "${path} must be a positive number",
-  negative: "${path} must be a negative number",
-  integer: "${path} must be an integer"
+  min: "${path} muss größer oder gleich ${min} sein",
+  max: "${path} muss kleiner oder gleich ${max} sein",
+  lessThan: "${path} muss kleiner als ${less} sein",
+  moreThan: "${path} muss größer als ${more} sein",
+  notEqual: "${path} muss ungleich dem Wert ${notEqual} sein",
+  positive: "${path} muss eine positive Zahl sein",
+  negative: "${path} muss eine negative Zahl sein",
+  integer: "${path} muss eine Ganzzahl sein"
 };
 
 /**
  * translations for date() schema elements
  */
 export const date = {
-  min: "${path} field must be later than ${min}",
-  max: "${path} field must be at earlier than ${max}"
+  min: "${path} muss später liegen als ${min}",
+  max: "${path} muss früher als ${max} sein"
 };
 
 /**
  * translations for boolean() schema elements.
  *
- * This is a noop for now as all translations necessary are covered with the @see mixed element
+ * This is a noop for now as all translations necessary are covered with the [[mixed]] element
  */
-export const boolean = {};
+export const boolean = new Object();
 
 /**
  * Translations for object() schema elements
@@ -84,11 +84,11 @@ export const object = {
 };
 
 /**
- * Translations for object() schema elements
+ * Translations for array() schema elements
  */
 export const array = {
-  min: "${path} field must have at least ${min} items",
-  max: "${path} field must have less than or equal to ${max} items"
+  min: "${path} muss mindestens ${min} Elemente enthalten",
+  max: "${path} darf maximal ${max} Elemente enthalten"
 };
 
 /**

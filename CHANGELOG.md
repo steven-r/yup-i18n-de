@@ -3,11 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.2.0](https://github.com/steven-r/yup-i18n-de/compare/v1.1.1...v1.2.0) (2020-03-08)
+# [1.3.0-beta.1](https://github.com/steven-r/yup-i18n-de/compare/v1.2.0...v1.3.0-beta.1) (2020-03-08)
 
 
 ### Features
 
+* add translatons for date, number, array ([4d69a57](https://github.com/steven-r/yup-i18n-de/commit/4d69a574c5f3d303a2f315c7ba4553993ca4e490))
+
+# [1.2.0-beta.2](https://github.com/steven-r/yup-i18n-de/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2020-03-08)
+
+### Features
+
+* add translatons for date, number, array ([4d69a57](https://github.com/steven-r/yup-i18n-de/commit/4d69a574c5f3d303a2f315c7ba4553993ca4e490))
 * update documentation to not use README.md but docs instead ([148127e](https://github.com/steven-r/yup-i18n-de/commit/148127e8f52631d5ac561b8a90525bd2ab3cd069))
 
 # [1.2.0-beta.1](https://github.com/steven-r/yup-i18n-de/compare/v1.1.1-beta.2...v1.2.0-beta.1) (2020-03-08)
