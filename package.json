@@ -8,7 +8,7 @@
     "test": "jest && codecov",
     "semantic-release": "semantic-release",
     "clean": "shx rm -rf node_modules/ dist/ docs/",
-    "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default --readme README.md && touch docs/.nojekyll"
+    "typedoc": "typedoc --options typedoc.json --theme node_modules/typedoc-neo-theme/bin/default --readme README.md"
   },
   "repository": "steven-r/yup-i18n-de",
   "bugs": {
