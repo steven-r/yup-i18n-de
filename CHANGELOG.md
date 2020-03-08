@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1-beta.1](https://github.com/steven-r/yup-i18n-de/compare/v1.3.0...v1.3.1-beta.1) (2020-03-08)
+
+
+### Bug Fixes
+
+* use package patching only for dev packages ([e48bcfb](https://github.com/steven-r/yup-i18n-de/commit/e48bcfbbc2d800b7445de2007fbc5b24a64f5b5c)), closes [#21](https://github.com/steven-r/yup-i18n-de/issues/21)
+
 # [1.3.0](https://github.com/steven-r/yup-i18n-de/compare/v1.2.0...v1.3.0) (2020-03-08)
 
 
