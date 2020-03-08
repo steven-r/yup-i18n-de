@@ -14,8 +14,7 @@ jobs:
       script:
         - yarn build
         - cp package.json dist/
-    - script: yarn test
-      name: test
+        - yarn test
     - stage: release
       deploy:
         - provider: pages
