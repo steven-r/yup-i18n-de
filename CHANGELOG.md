@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/steven-r/yup-i18n-de/compare/v1.0.1...v1.0.2) (2020-03-08)
+
+
+### Bug Fixes
+
+* add publich access to deploy scoped package ([84847df](https://github.com/steven-r/yup-i18n-de/commit/84847dfcacc6ad8d1fb773e2bf9dd07fa286c28a)), closes [#9](https://github.com/steven-r/yup-i18n-de/issues/9)
+
 ## [1.0.1](https://github.com/steven-r/yup-i18n-de/compare/v1.0.0...v1.0.1) (2020-03-08)
 
 
