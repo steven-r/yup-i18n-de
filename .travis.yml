@@ -14,6 +14,7 @@ jobs:
       script:
         - yarn build
         - yarn test
+        - codecov
         - touch docs/.nojekyll # for gh pages
       deploy:
         - provider: pages

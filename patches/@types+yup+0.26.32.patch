@@ -1,0 +1,15 @@
+diff --git a/node_modules/@types/yup/index.d.ts b/node_modules/@types/yup/index.d.ts
+index aa0f6f7..c43ad06 100644
+--- a/node_modules/@types/yup/index.d.ts
++++ b/node_modules/@types/yup/index.d.ts
+@@ -73,8 +73,8 @@ export interface Schema<T> {
+     when(keys: string | any[], builder: WhenOptions<this>): this;
+     test(
+         name: string,
+-        message: TestOptionsMessage,
+-        test: (this: TestContext, value?: any) => boolean | ValidationError | Promise<boolean | ValidationError>,
++        message?: TestOptionsMessage,
++        test?: (this: TestContext, value?: any) => boolean | ValidationError | Promise<boolean | ValidationError>,
+         callbackStyleAsync?: boolean,
+     ): this;
+     // tslint:disable-next-line:no-unnecessary-generics
