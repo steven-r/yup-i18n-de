@@ -21,6 +21,9 @@
   "author": "Stephen Reindl",
   "license": "MIT",
   "description": "A small libary that sets the locale for yup to German",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
