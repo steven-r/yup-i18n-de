@@ -10,6 +10,7 @@ node_js:
 
 jobs:
   include:
+    - script: yarn test
     # Define the release stage that runs semantic-release
     - stage:   release to master
       script: skip
