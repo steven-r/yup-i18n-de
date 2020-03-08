@@ -1,3 +1,15 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.1.1-beta.2](https://github.com/steven-r/yup-i18n-de/compare/v1.1.1-beta.1...v1.1.1-beta.2) (2020-03-08)
+
+
+### Bug Fixes
+
+* restructure release package ([396fe12](https://github.com/steven-r/yup-i18n-de/commit/396fe12cb7ccc088c19e9d49d443732cfbc1e9ff))
+
 ## [1.1.1-beta.1](https://github.com/steven-r/yup-i18n-de/compare/v1.1.0...v1.1.1-beta.1) (2020-03-08)
 
 
