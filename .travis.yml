@@ -1,0 +1,29 @@
+os: linux
+language: node_js
+
+install:
+  - npm install -g codecov
+  - yarn
+
+node_js:
+  - "lts/*"
+
+jobs:
+  include:
+    - stage: build & test
+      script:
+        - yarn build
+        - yarn test
+      deploy:
+        - provider: pages
+          github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+          keep_history: true
+          skip_cleanup: true
+          on:
+            branch: master
+        - provider: script
+          skip_cleanup: true
+          script:
+            npx semantic-release
+          on:
+            all_branches: true
